@@ -1,0 +1,32 @@
+body {text-align: center;}
+#block {
+    background-color: rgb(171, 171, 116);
+    border: 3px solid rgb(242, 255, 144);
+    border-radius: 25px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: auto;
+}
+#block #button {
+    background-color: rgb(184, 169, 74);
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+#block #button h2 {margin: 0;}
+#block div {
+    background-color: rgb(184, 169, 74);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-basis: 50%;
+}
+#block div label{flex-basis: 25%;}
+#block div input{flex-basis: 50%;}
